@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <!-- <img src="./assets/logo.png" alt="Logo"> -->
+            <h3>Harl</h3>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div></div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="content">
+            <!-- <h1>Welcome to My Portfolio</h1> -->
+            <h1 class="outline">Hi, I'm a Professional</h1>
+            <h1 class="role">WEB DEVELOPER</h1>
+            <p class="desc">Harley is a passionate web developer with several years of experience in building responsive and user-friendly websites. She specializes in front-end development technologies such as HTML, CSS, and JavaScript, and is proficient in frameworks like React.js and Vue.js. With a keen eye for design and a strong understanding of UX principles, Harley is dedicated to creating engaging web experiences that leave a lasting impression on users.</p>
+            <button class="hirebtn">Hire me</button>
+        </div>
+        <div class="floating-image">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <img src="./assets/profile.jpg" alt="Floating Image" class="image">
+            <!-- <div class="circle2"></div> -->
+            <div class="circle1"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="hidden">
+        <h2>Projects</h2>
+        <div class="swiper sample-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/sample1.png">
+                    <h2>hello1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis? Quo dolor fugiat incidunt quisquam? Ratione dolor nostrum blanditiis sed excepturi? Quam culpa dolores debitis sequi nam?</p>
+                    <button>View Project</button>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/sample1.png">
+                    <h2>hello2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis? Quo dolor fugiat incidunt quisquam? Ratione dolor nostrum blanditiis sed excepturi? Quam culpa dolores debitis sequi nam?</p>
+                    <button>View Project</button>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/sample1.png">
+                    <h2>hello3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis? Quo dolor fugiat incidunt quisquam? Ratione dolor nostrum blanditiis sed excepturi? Quam culpa dolores debitis sequi nam?</p>
+                    <button>View Project</button>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/sample1.png">
+                    <h2>hello4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis? Quo dolor fugiat incidunt quisquam? Ratione dolor nostrum blanditiis sed excepturi? Quam culpa dolores debitis sequi nam?</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="hidden">
+        <div class="container">
+            <h2>Skills</h2>
+            <!-- Skill Icons or List will go here -->
+            <div class="skills">
+                <div class="skill">
+                    <img src="./assets/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/react.png" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/vue.png" alt="Vue">
+                    <p>Vue</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hidden">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <!-- Contact Form or Contact Information will go here -->
+            <form>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter your email">
+                <label>Subject</label>
+                <input type="text" name="subject" placeholder="Enter your subject">
+                <label>Message</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <h3>Get in Touch</h3>
+        <p>Copyright &copy; 2021</p>
+        <p>Designed and Developed by <a href="https://github.com/harl-dev" target="_blank">harl-dev</a></p>
+    </footer>
+
+    <script src="swiper.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
